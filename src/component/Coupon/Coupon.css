@@ -1,0 +1,26 @@
+.coupon-container {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: .5em;
+    padding: .5rem 1rem;
+    align-items: baseline;
+    gap: 10px
+}
+
+
+/* 
+.coupon-heading {
+    margin-right: auto;
+} */
+
+.coupon-input-container {
+    flex: 1
+}
+
+.coupon-input-container input {
+    border-radius: .5em;
+    border: 1px solid #ddd;
+    padding: .5em 1em;
+    flex: 1;
+    width: 100%;
+}

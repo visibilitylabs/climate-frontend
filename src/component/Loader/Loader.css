@@ -1,0 +1,41 @@
+.loader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.396);
+    backdrop-filter: blur(10px);
+    visibility: hidden;
+    opacity: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.loader-container.show-loader {
+    visibility: visible;
+    opacity: 1;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

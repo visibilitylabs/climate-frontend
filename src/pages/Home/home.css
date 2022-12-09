@@ -1,0 +1,290 @@
+    .home-section-1 {
+        height: 100vh;
+        position: relative;
+    }
+    
+    .home-section-1 .home-backdrop-filter {
+        background-image: url('https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/ChronicPain/1296x728_11_books_chronic_illness.jpg?w=1155&h=1528');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        filter: brightness(.7);
+    }
+    
+    .home-section-1 .home-backdrop {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-weight: 600;
+        position: relative;
+        padding: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+    .home-section-1 .home-title {
+        font-size: 4rem;
+        font-weight: 700;
+        z-index: 5;
+        color: #fff;
+        max-width: 50%;
+    }
+    
+    .home-section-1 .home-semititle {
+        font-size: 1.7rem;
+        font-weight: 600;
+        z-index: 5;
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+    
+    .home-section-1 .home-button {
+        border: none;
+        padding: 0.7rem 2rem
+    }
+    
+    .home-section-1 .home-backdrop button {
+        width: max-content
+    }
+    
+    .section-3-grid {
+        display: flex;
+        padding: 20px;
+    }
+    
+    .section-3-grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+        height: 400px;
+        color: white;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .section-3-grid-item .grid-item-title {
+        font-size: 2.5rem;
+        font-family: abril fatface, Sans-serif;
+        font-weight: 600;
+        margin-bottom: .75rem;
+        text-transform: uppercase;
+    }
+    
+    .section-3-grid-item .grid-item-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: .75rem;
+    }
+    
+    .section-3-grid-item .grid-action-button {
+        text-transform: uppercase;
+    }
+    
+    .section-about-container-item-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .section-about-container-item-des {
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .banner {
+        width: 100%;
+        background-color: #000;
+        height: 20rem;
+        color: #fff;
+        font-weight: 700;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #f9be05;
+    }
+    
+    .banner div {
+        background: linear-gradient(90deg, #e419ff, #8d19ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .theme-bg {
+        background: linear-gradient(90deg, #e419ff, #8d19ff);
+    }
+    
+    .theme-text {
+        background: linear-gradient(90deg, #e419ff, #8d19ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .books-sold-grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+        height: 300px;
+        border: 1px solid black;
+    }
+    
+    .books-sold-grid-item-value {
+        font-size: 5rem;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .books-sold-grid-item-title {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #121212;
+        text-transform: uppercase;
+        letter-spacing: .15em;
+    }
+    
+    .section-customer-testimonial {
+        background-color: black;
+        color: white;
+        padding: 100px 50px;
+    }
+    
+    .section-customer-testimonial-grid {
+        gap: 20px;
+    }
+    
+    .section-customer-testimonial-grid:not(:first-child) {
+        margin-top: 20px
+    }
+    
+    .section-customer-testimonial-title {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .section-customer-testimonial-grid-item {
+        border: 1px solid #959595;
+        background-color: black;
+        border-radius: .25em;
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .section-customer-testimonial-grid-item-description {
+        margin-bottom: 20px;
+    }
+    
+    .testimonial-author-container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+    }
+    
+    .testimonial-author-container img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .section-faq {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-faq-title {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .section-faq-sub-title {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .section-faq-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .faq-question {
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        padding: 1rem 0;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .faq-question .fa-caret-right {
+        font-size: 1.2rem;
+        height: .8rem !important;
+        transition: .5s;
+    }
+    
+    .faq-expanded .fa-caret-right {
+        transform: rotate(90deg);
+    }
+    
+    .faq-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 3em;
+        border: 1px solid #ddd;
+    }
+    
+    .faq-answer {
+        overflow: hidden;
+        max-height: 1000px;
+        transition: .5s;
+    }
+    
+    .faq-item:not(.faq-expanded) .faq-answer {
+        max-height: 0px;
+    }
+    
+    @media (max-width:768px) {
+        .banner div {
+            text-align: center;
+        }
+        .banner {
+            margin-block: 1rem;
+        }
+        .section-customer-testimonial-grid {
+            flex-direction: column;
+        }
+        .home-section-1 .home-backdrop {
+            padding: 1rem;
+        }
+        .home-section-1 .home-title {
+            max-width: 100%;
+        }
+    }

@@ -1,0 +1,104 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #222;
+}
+
+
+/* @media (max-width: 767px) {
+    body {
+        margin-top: 2em;
+    }
+} */
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    border-radius: 0em;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+
+/* button:hover {
+    background: linear-gradient(90deg, #e419ff, #8d19ff) !important;
+    border-color: transparent !important;
+    color: white !important;
+} */
+
+.btn-secondary {
+    background: #fff;
+    border: #fff;
+    color: #121212;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background: #fff;
+    border: #fff;
+    color: #000;
+}

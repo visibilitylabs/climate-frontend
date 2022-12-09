@@ -1,0 +1,111 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.185) !important;
+    color: #fff !important;
+    padding: 1.5rem;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-brand img {
+    border-radius: 10px;
+}
+
+.navbar-search input {
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: .2em;
+}
+
+.navbar-search button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: .2em;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-second div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 0.9em;
+    gap: 25px;
+}
+
+.navbar-nav a {
+    font-size: 1.1em;
+    padding: .5em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transition: .2s;
+    text-shadow: 1px 0px 2px #333;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    flex-basis: auto;
+    padding-inline: 3rem;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        padding: .5em;
+    }
+    .navbar-nav {
+        padding-top: .7em;
+    }
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap !important;
+    }
+    .navbar-toggler {
+        margin-left: 1rem;
+    }
+    .navbar-search {
+        gap: 0;
+        align-items: stretch;
+        padding-block: 0.6rem;
+    }
+    .navbar-search input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .navbar-search button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .navbar-collapse {
+        margin-block: 12px;
+        flex-grow: 1;
+    }
+}
