@@ -16,17 +16,17 @@ function Contact() {
                         <div className="contact-title">Queries?</div>
                         <div className="contact-detail">
                             <div className="contact-detail-type"><i className="bi bi-whatsapp"></i></div>
-                            <div className="contact-detail-value">8810523354</div>
+                            <div className="contact-detail-value">9871093837</div>
                         </div>
                         
                         <div className="contact-detail">
                             <div className="contact-detail-type"><i className="bi bi-instagram"></i></div>
-                            <a className="contact-detail-value" href='https://instagram.com/blissbookstore' >blissbookstore</a>
+                            <a className="contact-detail-value" href='https://instagram.com/climatesolutions' >climatesolutions</a>
                         </div>
                         <div className="contact-detail">
                             <div className="contact-detail-type"><i className="bi bi-envelope-at"></i></div>
-                                <a href="mailto:an.books.solutions@gmail.com" className="contact-detail-value">
-                                    an.books.solutions@gmail.com
+                                <a href="mailto:help@climatesolutions.in" className="contact-detail-value">
+                                    help@climatesolutions.in
                                 </a>
                         </div>
                     </div>

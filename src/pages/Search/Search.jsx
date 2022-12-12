@@ -24,7 +24,6 @@ function SearchPage() {
         dispatch(getSearchResults(searchQuery));
         // dispatch(setLoading(false));
     }, [searchQuery]);
-    
     return (
     <div className='padded-container'>
         { state.length!=0&&<div className='search-container'>
@@ -35,10 +34,8 @@ function SearchPage() {
             { state.length!=0&&<Page posts={state} loading={false} /> }
                 {/*<Pagination postsperpage={postsPerPage} totalposts={bookData.length}/>*/}
                { state.length==0&&<div className="no-results" style={{textAlign:'center'}} >
-                        <div>We might still have it ❤️</div>
-                        <div>
-                        DM us to see if we can arrange this book for you
-                        </div>
+                        <div>No Results found</div>
+                        
                     </div>
                 }
                  </div>

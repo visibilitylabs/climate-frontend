@@ -72,7 +72,7 @@ function About() {
                    It is the passion of reading that we have that has driven us to make books available to every part of India ❤️
                    </p>
             </div>
-            <iframe className='iframe-right' src="https://instagram.com/blissbookstore" height={670}  frameborder="0"></iframe>
+            <iframe className='iframe-right' src="https://instagram.com/climatesolutions" height={670}  frameborder="0"></iframe>
         </div>
   
       </div>

@@ -8,7 +8,7 @@ export default function Policy() {
     }, [])
   return (<div class="entry-content clear" itemprop="text">
   <h2>Who we are</h2>
-  <p>Our website address is: https://blissbookstore.in.</p>
+  <p>Our website address is: https://climatesolutions.in.</p>
   <h2>Comments</h2>
   <p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>
   <p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>

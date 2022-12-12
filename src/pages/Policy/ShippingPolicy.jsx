@@ -7,7 +7,7 @@ export default function ShippingPolicy() {
         window.scrollTo(0,0);
     }, [])
   return (<div class="entry-content clear" itemprop="text">
-  <p>BLISS BOOKSTORE IS AN INDEPENDENT ONLINE BOOKSTORE WITH SERVICE ACROSS INDIA.  WE PROVIDE BESTSELLING BOOKS AT 50-70% OFF. </p>
+  <p>CLIMATE SOLUTIONS IS AN INDEPENDENT ONLINE BOOKSTORE WITH SERVICE ACROSS INDIA.  WE PROVIDE BESTSELLING BOOKS AT 50-70% OFF. </p>
   <p><strong>CASH ON DELIVERY IS AVAILABLE</strong></p>
   <p>SHIPPING: HOME DELIVERY TO OVER 27000+ PINCODES ACROSS INDIA INCLUDING JAMMU AND KASHMIR, LADAKH, NORTH EAST STATES AND OTHER UNION TERRITORIES LIKE ANDAMAN AND NICOBAR ISLANDS.</p>
   <p><strong>DELIVERY TIME</strong>: <strong>2-10 DAYS</strong> <strong>DEPENDING ON THE CUSTOMER’S LOCATION</strong></p>
@@ -38,8 +38,8 @@ export default function ShippingPolicy() {
   <p><strong>For COD orders, customers who do not add complete address details and an alternative contact number while checkout are not eligible for getting their order confirmed.</strong></p>
   <p>At times, the customer may face delays in order delivery. We assure that this delay will be from the side of courier companies and we only have limited control over the courier processes. We will try our best to escalate the delivery process through shiprocket dashboard, but still we expect our customers to be patient if this happens. Order cancellation and refunds are only available if the courier initiates RETURN TO ORIGIN [RTO] in cases of delays.</p>
   <p>FOR ANY QUERIES: </p>
-  <p>Email: an.books.solutions@gmail.com</p>
-  <p>Instagram: blissbookstore</p>
+  <p>Email: help@climatesolutions.in</p>
+  <p>Instagram: climatesolutions</p>
   </div>
   )
 }

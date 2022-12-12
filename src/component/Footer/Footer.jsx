@@ -10,7 +10,7 @@ function Footer() {
           <div className="footer-title">About Us</div>
           <div className="footer-content">
             <p>
-              Bliss Bookstore is a bookstore that sells books online.
+              Climate Solutions is a bookstore that sells books online.
             </p>
       </div>
           </div>
@@ -19,15 +19,15 @@ function Footer() {
             <div className="footer-content">
               <div className="footer-contact">
                 <div className="footer-contact-type"><i className="bi bi-whatsapp"></i></div>
-                <div className="footer-contact-value">8810523354</div>
+                <div className="footer-contact-value">9871093837</div>
                 </div>
                 <div className="footer-contact">
                   <div className="footer-contact-type"><i className="bi bi-instagram"></i></div>
-                  <a className="footer-contact-value" href='https://instagram.com/blissbookstore' >@blissbookstore</a>
+                  <a className="footer-contact-value" href='https://instagram.com/climatesolutions' >@climatesolutions</a>
                 </div>
                 <div className="footer-contact">
                   <div className="footer-contact-type"><i className="bi bi-envelope-at"></i></div>
-                  <a href="mailto:an.books.solutions.gmail.com" className="footer-contact-value">an.books.solutions@gmail.com</a>
+                  <a href="mailto:an.books.solutions.gmail.com" className="footer-contact-value">help@climatesolutions.in</a>
                   </div>
                   </div>
                   </div>
@@ -63,7 +63,7 @@ function Footer() {
       </div>
       <div className="copy-right">
         <div className="copy-right-text">
-          &copy; 2021 Bliss Bookstore
+          &copy; 2021 Climate Solutions
           </div>
       </div>
     </div>

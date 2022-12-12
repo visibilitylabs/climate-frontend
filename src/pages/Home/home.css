@@ -4,7 +4,7 @@
     }
     
     .home-section-1 .home-backdrop-filter {
-        background-image: url('https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/ChronicPain/1296x728_11_books_chronic_illness.jpg?w=1155&h=1528');
+        background-image: url('https://ik.imagekit.io/climatesolutions/stock2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670807506088');
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -117,17 +117,29 @@
     }
     
     .banner div {
-        background: linear-gradient(90deg, #e419ff, #8d19ff);
+        background: hsla(210, 100%, 82%, 1);
+        background: linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A1D0FF", endColorstr="#00FFD0", GradientType=1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     
     .theme-bg {
-        background: linear-gradient(90deg, #e419ff, #8d19ff);
+        background: hsla(210, 100%, 82%, 1);
+        background: linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A1D0FF", endColorstr="#00FFD0", GradientType=1);
     }
     
     .theme-text {
-        background: linear-gradient(90deg, #e419ff, #8d19ff);
+        background: hsla(210, 100%, 82%, 1);
+        background: linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(210, 100%, 82%, 1) 0%, hsla(169, 100%, 50%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A1D0FF", endColorstr="#00FFD0", GradientType=1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }

@@ -23,7 +23,7 @@ function ProductPage() {
     const [data, setData]=useState({});
     const location = useLocation();
     const bookId=location.pathname.split('/')[2];
-    const url=`https://beta.blissbookstore.in/books/${bookId}`
+    const url=`http://localhost:5000/climate/products/${bookId}`
     useEffect(()=>{
         dispatch(setLoading(true));
         fetch(url)
@@ -60,7 +60,7 @@ function ProductPage() {
                 <img className='img-fluid' src={data.coverImage} alt={data.title} />
                 </div>
                 <div className="col-12 col-sm-4">
-                    <div className="text-muted small">Bliss Book Store</div>
+                    <div className="text-muted small">Climate Solutions</div>
                     <div className="product-title">{data.title}</div>
                     <div className="product-author">{data.author}</div>
                     <div className="product-price-container">

@@ -61,25 +61,25 @@ const aboutData = [
 ]
 const bannerGridData=[
   {
-    title:'New Arrivals',
+    title:'Browse Combos',
     subTitle:'All at 50% OFF!',
     actionButton:'Browse Collection',
-    actionButtonLink:'/store/category/NEW%20ARRIVALS',
-    backgroundImage:'https://ik.imagekit.io/blissbookstore/blissimg1.jpg'
+    actionButtonLink:'/store',
+    backgroundImage:'https://ik.imagekit.io/climatesolutions/freshstock.jpeg'
   },
   {
     title:'Best Sellers in Fiction',
     subTitle:'All at 50% OFF!',
     actionButton:'Browse Collection',
-    actionButtonLink:'/store/category/FICTION',
-    backgroundImage:'https://ik.imagekit.io/blissbookstore/blissimg2.jpg'
+    actionButtonLink:'/store',
+    backgroundImage:'https://ik.imagekit.io/climatesolutions/stock3.jpg'
   },
   {
-    title:'Best Sellers in Non Fiction',
-    actionButtonLink:'/store/category/NON%20FICTION',
+    title:'GET WASHING MACHINE ACCESSORIES',
+    actionButtonLink:'/store',
     subTitle:'All at 50% OFF!',
     actionButton:'Browse Collection',
-    backgroundImage:'https://ik.imagekit.io/blissbookstore/blissimg3.jpg'
+    backgroundImage:'https://ik.imagekit.io/climatesolutions/stock1?ik-sdk-version=javascript-1.4.3&updatedAt=1670807061345'
   }
 ]
 
@@ -104,7 +104,7 @@ const faqData=[
   },
   {
     question:'Is Shipping Free?',
-    answer:'We offer free shipping above <b>₹ 499 </b>. For orders below <b>₹ 499</b>, we charge a nominal shipping fee of ₹ 40.'
+    answer:'We offer free shipping above <b>₹ 799 </b>. For orders below <b>₹ 799</b>, we charge a nominal shipping fee of ₹ 40.'
   },
   {
     question:'Are all the books brand new?',
@@ -116,7 +116,7 @@ const faqData=[
   },
   {
     question:'Do you have customer support?',
-    answer:'Yes, We offer Instagram and WhatsApp support. You can reach out to us @blissbookstore or+91 8810523354  '
+    answer:'Yes, We offer Instagram and WhatsApp support. You can reach out to us @climatesolutions or+91 9871093837  '
   },
 ]
 
@@ -147,10 +147,10 @@ export const Home = () => {
       <div className="home-backdrop-filter"></div>
         <div className="home-backdrop">
           <div className='home-title'>
-            FOR THE <span className="theme-text">BLISS</span><br/> IN READING
+            Best Home Electronics Accessories Store
           </div>
-          <div className='home-semititle'>60%-70% Off On All Books</div>
-          <div className='home-semititle'>New and Best Quality Books</div> 
+          <div className='home-semititle'>60%-70% Off On All Products</div>
+          <div className='home-semititle '>CLIMATE SOLUTIONS</div> 
         <Link  to={'store'}>
           <button className="home-button">
           VISIT STORE
@@ -208,40 +208,37 @@ export const Home = () => {
 
       <div className='banner container-fluid'>
         <div className='banner-first'>
-        ENJOY FREE SHIPPING ON ORDERS ABOVE ₹499/-
+        ENJOY FREE SHIPPING ON ORDERS ABOVE ₹799/-
           </div>
-        <div className='banner-second'>
+        {/* <div className='banner-second'>
         FREE BOOKMARK WITH EVERY BOOK!
-        </div>
-        <div>
-        FREE CUSTOM NOTES!
-          </div>
+        </div> */}
       </div>
       <div className="section-books-sold">
         <div className="books-sold-grid row p-5 g-3 theme-bg">
           <div className="col">
           <div className="books-sold-grid-item col">
-            <div className="books-sold-grid-item-value">1000+</div>
+            <div className="books-sold-grid-item-value">1,00,000+</div>
             <div className="books-sold-grid-item-title ">orders delivered</div>
           </div>
           </div>
           <div className="col">
           <div className="books-sold-grid-item col">
-              <div className="books-sold-grid-item-value">1000+</div>
-              <div className="books-sold-grid-item-title ">Books Sold</div>
+              <div className="books-sold-grid-item-value">1,00,000+</div>
+              <div className="books-sold-grid-item-title ">Accessories Sold</div>
 
           </div>
           </div>
           
           <div className="col">
           <div className="books-sold-grid-item col">
-              <div className="books-sold-grid-item-value">1000+</div>
+              <div className="books-sold-grid-item-value">1,00,000+</div>
               <div className="books-sold-grid-item-title ">Customers Served</div>
           </div>
           </div>
         </div>
     </div>
-    <div className="section-customer-testimonial">
+    {/* <div className="section-customer-testimonial">
       <div className="section-customer-testimonial-title">What Our Customers Say</div>
       <div className="section-customer-testimonial-grid row">
 
@@ -255,7 +252,6 @@ Nicely packed and plus the bookmarks are cute 💫🤍
 Thankyou so much again.
 I'll definitely buy more books very soon 😃"</div>
           <div className="testimonial-author-container">
-              {/* <img src="https://instagram.fdel27-1.fna.fbcdn.net/v/t51.2885-19/316056470_499160862180193_2756822559832714124_n.jpg" width={100} height={100}/> */}
             <div>
             <div className="testimonial-author-name">Farhan</div>
             <div className="testimonial-author-handle">sugaringcandy.o.x</div>
@@ -273,7 +269,6 @@ Is also perfect
 Thank you soo much
 Hoping to order plenty in the near future..😁❤️"</div>
           <div className="testimonial-author-container">
-              {/* <img src="https://picsum.photos/200" width={100} height={100}/> */}
             <div>
             <div className="testimonial-author-name">Reader's reading</div>
             <div className="testimonial-author-handle">dhruvikagarg24</div>
@@ -293,7 +288,6 @@ And I'm happy with the books 🥺❤
 __twinkle__in__time__'s profile picture
 Lemme just finish these... Maybe I'll order some more later ❤"</div>
           <div className="testimonial-author-container">
-              {/* <img src="https://picsum.photos/200" width={100} height={100}/> */}
             <div>
             <div className="testimonial-author-name">❤❤SWIYA❤❤</div>
             <div className="testimonial-author-handle">__twinkle__in__time__</div>
@@ -312,7 +306,6 @@ Lemme just finish these... Maybe I'll order some more later ❤"</div>
           <div className="section-customer-testimonial-grid-item-description">
           hey, the books came in today and they're all in good condition. thank you so much ❤️</div>
           <div className="testimonial-author-container">
-              {/* <img src="https://picsum.photos/200" width={100} height={100}/> */}
             <div>
             <div className="testimonial-author-name">itirkaaa</div>
             <div className="testimonial-author-handle">itirkaaa</div>
@@ -326,7 +319,6 @@ Lemme just finish these... Maybe I'll order some more later ❤"</div>
           </div>
           <div className="section-customer-testimonial-grid-item-description">"The books were nicely packed. Can't wait to read them. "</div>
           <div className="testimonial-author-container">
-              {/* <img src="https://picsum.photos/200" width={100} height={100}/> */}
             <div>
             <div className="testimonial-author-name">Vishal</div>
             <div className="testimonial-author-handle">vishal_bagchi</div>
@@ -336,7 +328,7 @@ Lemme just finish these... Maybe I'll order some more later ❤"</div>
 
     </div>
     </div>
-    </div>
+    </div> */}
     <div className="section-faq mb-5 container-fluid">
       <div className="section-faq-title">FAQ</div>
       <div className="section-faq-sub-title text-muted">Most Frequent questions and answers</div>
@@ -349,18 +341,3 @@ Lemme just finish these... Maybe I'll order some more later ❤"</div>
     </div>
     )
 }
-
-
-   // Huge Banner image
-        // Books carousel tentative
-        // coupons info tentative
-        // Collections grid 
-        // bestsellers grid 
-        // quality description
-        // in one page
-        //  make your combo
-        //  free shipping
-        // order numbers
-        // customer testimonials
-        // faq
-        // footer

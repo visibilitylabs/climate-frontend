@@ -68,7 +68,7 @@ coverImage:'https://picsum.photos/2000',
     const categoryFromUrl=useParams().category;
     const [loadingArea, setLoadingArea]=useState(false);
     const [currentCategory, setCurrentCategory] = useState(categoryFromUrl||'ALL');
-    let url=currentCategory=='ALL'?`https://beta.blissbookstore.in/books?pageNo=${currPage}&pageSize=${postsPerPage}`:`https://beta.blissbookstore.in/books/category/${currentCategory}?pageNo=${currPage}&pageSize=${postsPerPage}`;
+    let url=`http://localhost:5000/climate/products?pageNo=${currPage}&pageSize=${postsPerPage}`;
     
     useEffect(()=>{
         window.scrollTo(0,0);
@@ -139,12 +139,12 @@ coverImage:'https://picsum.photos/2000',
     <div className='padded-container'>
         <div className="row justify-content-center  category-bar-container">
             <div className="col-12 col-lg-10">
-                <div className="category-bar ">
+                {/* <div className="category-bar ">
                    {categories.map((item)=>{
                        return <Link style={{textDecoration:'none'}} key={item.link} className={currentCategory==item.link?"category-bar-item active":"category-bar-item"} to={`/store/category/${item.link}`} onClick={()=>{setCurrentCategory(item.link, SetCurrPage(1))}} >{item.name}</Link>  
 
                    })}
-                   </div>
+                   </div> */}
                    <div className="my-5"></div>
                 <Page posts={bookData} loading={false} /> 
                 {/*<Pagination postsperpage={postsPerPage} totalposts={bookData.length}/>*/}
