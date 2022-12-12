@@ -1,9 +1,9 @@
 import axios from 'axios'
 import { getUserId } from '../common/userIdService';
 
-// const url = 'http://localhost:5000/climate';
+// const url = 'https://beta.blissbookstore.in/climate';
 const fallbackUrl = 'https://zippy-scythe-energy.glitch.me';
-const url = 'http://localhost:5000/climate';
+const url = 'https://beta.blissbookstore.in/climate';
 
 let userId = getUserId();
 

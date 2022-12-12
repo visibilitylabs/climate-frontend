@@ -68,7 +68,7 @@ coverImage:'https://picsum.photos/2000',
     const categoryFromUrl=useParams().category;
     const [loadingArea, setLoadingArea]=useState(false);
     const [currentCategory, setCurrentCategory] = useState(categoryFromUrl||'ALL');
-    let url=`http://localhost:5000/climate/products?pageNo=${currPage}&pageSize=${postsPerPage}`;
+    let url=`https://beta.blissbookstore.in/climate/products?pageNo=${currPage}&pageSize=${postsPerPage}`;
     
     useEffect(()=>{
         window.scrollTo(0,0);

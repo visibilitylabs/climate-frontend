@@ -23,7 +23,7 @@ function ProductPage() {
     const [data, setData]=useState({});
     const location = useLocation();
     const bookId=location.pathname.split('/')[2];
-    const url=`http://localhost:5000/climate/products/${bookId}`
+    const url=`https://beta.blissbookstore.in/climate/products/${bookId}`
     useEffect(()=>{
         dispatch(setLoading(true));
         fetch(url)
